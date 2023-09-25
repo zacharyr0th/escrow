@@ -11,10 +11,7 @@
  * 4. Upon meeting conditions, assets are released to the respective parties.
  * 5. Agreements can be altered or cancelled under specific conditions for flexibility.
  * 
- * Note: Developers and users should review the entire contract for understanding 
- * the intricacies and conditions under which assets are locked and released.
- */
-module df370c04a22f0d87ed8d020bdaa4851842e03b74d088c893a3ad38d3a62f391c::escrow {
+module escrow_address::escrow {
 
     // This module implements an escrow agreement between two parties.
     
