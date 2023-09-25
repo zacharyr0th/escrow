@@ -10,7 +10,7 @@
  * 3. Responder can review and sign the agreement, locking their assets.
  * 4. Upon meeting conditions, assets are released to the respective parties.
  * 5. Agreements can be altered or cancelled under specific conditions for flexibility.
- * 
+**/
 module escrow_address::escrow {
 
     // This module implements an escrow agreement between two parties.
