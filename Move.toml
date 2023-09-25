@@ -3,13 +3,8 @@ name = "escrow"
 version = "1.0.0"
 authors = []
 
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", rev = "main", subdir = "aptos-move/framework/aptos-framework" }
+
 [addresses]
-
-[dev-addresses]
-
-[dependencies.AptosFramework]
-git = "https://github.com/aptos-labs/aptos-core.git"
-rev = "mainnet"
-subdir = "aptos-move/framework/aptos-framework"
-
-[dev-dependencies]
+escrow_address = "df370c04a22f0d87ed8d020bdaa4851842e03b74d088c893a3ad38d3a62f391c"
